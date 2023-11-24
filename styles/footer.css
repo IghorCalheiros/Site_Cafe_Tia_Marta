@@ -1,0 +1,181 @@
+:root {
+    --lightbrown: #E6B8A2;
+    --mediumbrown: #CD9777;
+    --myblue: rgb(101, 101, 207);
+    --brown: #8A5A44;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #8A5A44;
+    padding-top: 45px;
+    padding-bottom: 0;
+}
+
+
+footer .ln1 {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 217px;
+}
+
+footer div .col_footer {
+    width: 25%;
+    color: white;
+}
+
+footer div .col_footer h6 {
+    font-size: 20px;
+    height: 24px;
+    font-weight: 600;
+}
+
+footer .col1 {
+    /* background-color: green; */
+}
+
+footer .col2 {
+    /* background-color: purple; */
+
+}
+
+footer .col3 {
+    /* background-color: red; */
+
+}
+
+footer .col4 {
+    /* background-color: blue; */
+
+}
+
+
+footer .col1 p {
+    height: 90px;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+footer .col2 p {
+    height: 90px;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+footer .col3 p {
+    height: 55px;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+footer .col3 .container_icon_footer {
+    display: flex;
+    flex-direction: row;
+    width: 186px;
+}
+
+footer .col3 .container_icon_footer a {
+    width: 21px;
+    margin: auto;
+}
+
+footer .col3 .container_icon_footer a:first-child {
+    margin-left: 0;
+}
+
+footer .col3 .container_icon_footer img {
+    width: 21px;
+    margin: auto;
+}
+
+
+footer .col4 p {
+    margin: 20px 0;
+    font-size: 13px;
+    text-decoration: none;
+    width: 272px;
+}
+
+footer .col_footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .ln2 {
+    height: 48px;
+    border-top: 1px solid #9AAAA2;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+}
+
+
+@media(max-width:1140px) {
+
+    footer .ln1 {
+        width: 100%;
+    }
+
+    footer .col4 p {
+        width: auto;
+    }
+
+    footer .col3 .container_icon_footer {
+        width: 100%;
+        width: 186px;
+        margin: 0;
+        height: auto;
+    }
+
+}
+
+@media(max-width:800px) {
+    footer {
+        width: 100%;
+    }
+
+    footer .ln1 {
+        height: auto;
+        display: block;
+    }
+
+    footer div .col_footer{
+        width: 100%;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin: 20px 0;
+        border-bottom: 1px solid var(--mediumbrown);
+    }
+
+    footer div .col1 p {
+        height: auto;
+    }
+
+    footer div .col2 p {
+        height: auto;
+    }
+
+    footer div .col3 p {
+        height: auto;
+    }
+
+    footer div  .col4 {
+        background-color: none;
+        height: auto;
+        margin: 20px 0;
+        display: block;
+        border: none;
+
+
+    }
+
+
+}

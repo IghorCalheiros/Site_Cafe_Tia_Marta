@@ -1,0 +1,125 @@
+:root {
+    --darkestbrown: #3D281E;
+    --brown: #8A5A44;
+    --mediumbrown: #8A5A44;
+    --lightbrown: #E6B8A2;
+    --colorText: #343434;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding-bottom: 60px;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+    font-size: 61px;
+    height: 163px;
+    line-height: 163px;
+    font-weight: normal;
+    /* background-color: #832424; */
+
+}
+
+.equipe_container {
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+
+    transition: 0.5s;
+}
+
+.equipe_container .card_equipe {
+    background-color: red;
+    background-color: #f8f8f8;
+    width: 346px;
+    /* margin: auto; */
+    text-align: center;
+    height: 571px;
+    box-sizing: border-box;
+}
+
+
+.equipe_container .card_equipe .container_image_card {
+    padding-top: 30px;
+    padding-bottom: 0;
+    /* background-color: aqua; */
+    height: fit-content;
+    /* width: 177px; */
+}
+
+.equipe_container .card_equipe .container_image_card img {
+    width: 177px;
+    /* background-color: red; */
+    margin-bottom: 0;
+}
+
+.equipe_container .card_equipe h5 {
+    height: 43px;
+    font-size: 25px;
+    font-weight: normal;
+    color: var(--darkestbrown);
+    margin: 14px auto;
+}
+
+.equipe_container .card_equipe p {
+    /* background-color: red; */
+    width: 317px;
+    height: 168px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: green; */
+    margin: 14px auto;
+}
+
+.equipe_container .card_equipe .icon_media_card {
+
+    margin: 14px auto;
+    /* background: purple; */
+    width: 254px;
+    text-align: center;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.equipe_container .card_equipe .icon_media_card img {
+    cursor: pointer;
+}
+
+
+
+@media(max-width:1140px) {
+    .equipe_container {
+        transition: 0.5s;
+        width: 100%;
+    }
+
+    .equipe_container .card_equipe {
+        width: 33.333%;
+    }
+
+}
+
+
+
+
+@media(max-width:1000px) {
+    .equipe_container {
+        flex-direction: column;
+    }
+
+    .equipe_container .card_equipe {
+        width: 400px;
+        margin: auto;
+        margin-top: 30px;
+    }
+}

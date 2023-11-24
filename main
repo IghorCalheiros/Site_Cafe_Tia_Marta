@@ -1,0 +1,105 @@
+
+<main>
+    <div class="cape">
+    
+        <div class="container_bestcoffe">
+            
+            <div class="card">
+                <h3>O MELHOR CAFÉ DA CIDADE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. In sit dolor tortor nec quis enim tristique. Praesent ac
+                    id
+                    ipsum molestie interdum sit gravida. Amet etiam sed eu sit neque sed. Ultrices egestas leo nisl
+                    scelerisque eu quis ante quam cras.</p>
+            </div>
+        </div>
+    </div>
+    <section class="business-values">
+        <div class="row">
+
+            <div class="card_value">
+                <h3>AROMA</h3>
+                <p>Lorem ipsum dolor sit amet <br>consectetur. Quis vulputate in ipsum felis ligula. Mi sollicitudin
+                    tellus
+                    leo et <br> sit aenean cursus.</p>
+            </div>
+            <div class="card_value">
+                <h3>SABOR</h3>
+                <p>Mi sollicitudin tellus leo et sit aenean cursus aliquet. Mauris id enim egestas sit eget
+                    ultricies
+                    aliquet facilisi maecenas. </p>
+            </div>
+            <div class="card_value">
+                <h3>PUREZA</h3>
+                <p>In hac habitasse platea dictumst.<br>Morbi sed fermentum nisl, eu bibendum purus. </p>
+            </div>
+        </div>
+        <div class="separator">
+        </div>
+
+    </section>
+
+    <section class="products">
+        <div class="row">
+            <div class="col col1">
+                <a href="">
+                    <img src="./images/produtos/coffeebeans.jpg" alt="">
+                    <div>
+                        <h4>Coffe Beams</h4>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col col2">
+                <a href="">
+
+                    <img src="./images/produtos/chocolatecoffee.jpg" alt="">
+                    <div>
+                        <h4>Chocolate Coffee</h4>
+                        <p>R$ 60,00</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col col3">
+                <a href="">
+                    <img src="./images/produtos/blackcoffee.jpg" alt="">
+                    <div>
+                        <h4>Black Coffee</h4>
+                        <p>R$ 65,00</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col1">
+                <a href="">
+
+                    <img src="./images/produtos/roastedcoffee.jpg" alt="">
+                    <div>
+                        <h4>Coffe Beams</h4>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col col2">
+                <a href="">
+                    <img src="./images/produtos/blacktea.jpg" alt="">
+                    <div>
+                        <h4>Coffe Beams</h4>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col col3">
+                <a href="">
+                    <img src="./images/produtos/chocomilk.jpg" alt="">
+                    <div>
+                        <h4>Coffe Beams</h4>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="separator">
+        </div>
+    </section>
+</main>

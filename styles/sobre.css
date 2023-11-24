@@ -1,0 +1,193 @@
+:root {
+    --lightbrown: #E6B8A2;
+    --mediumbrown: #CD9777;
+    --myblue: rgb(101, 101, 207);
+    --brown: #8A5A44;
+    --darkestbrown: #3D281E;
+    --colorText: #343434;
+}
+
+
+body {
+    /* background-color: var(--lightbrown); */
+    /* background-color: yellow; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif, Arial
+}
+
+main .sobre_container {
+    width: 1140px;
+    /* background-color: red; */
+    margin: auto;
+    padding-bottom: 60px;
+    transition: 0.5s;
+    box-sizing: border-box;
+
+}
+
+
+
+main .sobre_container h1 {
+    width: fit-content;
+    margin: auto;
+    font-size: 61px;
+    height: 163px;
+    line-height: 163px;
+    font-weight: normal;
+    color: #240A0A;
+
+}
+
+main .sobre_container .sections_container {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 92px;
+    justify-content: space-between;
+
+    transition: 0.5s;
+
+}
+
+
+main .sobre_container .sections_container #navigation_sobre {
+    text-decoration: none;
+    list-style: none;
+    width: 265px;
+    box-sizing: border-box;
+    border-right: 2px solid var(--lightbrown);
+    /* background-color: green; */
+    transition: 0.5s;
+}
+
+main .sobre_container .sections_container #navigation_sobre nav ul li {
+    list-style: none;
+    height: 23px;
+    font-size: 17px;
+    color: var(--colorText);
+    transition: 0.5s;
+    margin: 8px 0;
+}
+
+main .sobre_container .sections_container #navigation_sobre nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--colorText);
+}
+
+main .sobre_container .sections_container .container_icon_sobre {
+    width: 186px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+main .sobre_container .sections_container .container_icon_sobre a {
+    text-decoration: none;
+}
+
+main .sobre_container .sections_container .container_icon_sobre a img {
+    width: 21px;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+
+main .sobre_container .sections_container #history_sobre {
+    width: 763px;
+    /* column-gap: 40px; */
+    /* width: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 40px;
+    /* background-color: yellow; */
+}
+
+main .sobre_container .sections_container #history_sobre .cape_sobre {
+    /* width: 783px; */
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(../images/pics/capa_sobre.png);
+    /* height: 331px; */
+    aspect-ratio: 763 / 331;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main .sobre_container .sections_container #history_sobre .desc_sobre {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    /* background-color: blue; */
+}
+
+main .sobre_container .sections_container #history_sobre .desc_sobre h3 {
+    font-size: 39px;
+    color: var(--darkestbrown);
+    /* background-color: blue; */
+}
+
+main .sobre_container .sections_container #history_sobre .desc_sobre p {
+    font-size: 17px;
+    color: var(--colorText);
+    text-align: justify;
+    /* background-color: blue; */
+}
+
+
+
+/*   ====================================================== */
+/*   =================== RESPONSIVIDADE ===================  */
+/*   ====================================================== */
+
+
+
+@media(max-width:1140px) {
+    main .sobre_container {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        margin-bottom: 60px;
+        /* column-gap: 46px ; */
+    }
+
+
+    main .sobre_container .sections_container {
+        column-gap: 46px;
+        transition: 0.5s;
+
+    }
+
+    main .sobre_container .sections_container #navigation_sobre nav ul li {
+        list-style: none;
+        height: 23px;
+        font-size: 20px;
+        color: var(--colorText);
+        transition: 0.5s;
+
+        margin: 12px 0;
+    }
+
+    main .sobre_container .sections_container #navigation_sobre {
+        text-decoration: none;
+        list-style: none;
+        width: 215px;
+        box-sizing: border-box;
+        border-right: 2px solid var(--lightbrown);
+        /* background-color: green; */
+        transition: 0.5s;
+
+        padding-right: 10px;
+    }
+
+    main .sobre_container .sections_container .container_icon_sobre a img {
+        width: 27px;
+        transition: 0.5s;
+    }
+}

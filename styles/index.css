@@ -1,0 +1,425 @@
+:root {
+    --lightbrown: #E6B8A2;
+    --mediumbrown: #CD9777;
+    --myblue: rgb(101, 101, 207);
+    --brown: #8A5A44;
+    --darkestbrown: #3D281E;
+    --colorText: #343434;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    /* background-color: red; */
+
+}
+
+/* ------------------------------------------------------  */
+
+main section {
+
+    width: 1140px;
+    margin: auto;
+}
+
+
+main .cape {
+    background-image: url(../images/pics/capa.png);
+    width: 100%;
+
+    /* background-color: red; */
+    aspect-ratio: 1440 / 630;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+    /* width: 643px;height: 630px; */
+
+}
+
+main .cape .container_bestcoffe {
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+    /* background-color: rgb(50, 61, 213); */
+}
+
+main .cape .container_bestcoffe .card {
+    float: right;
+    margin-top: 105px;
+    right: 0;
+    width: 301px;
+    height: 482px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+main .cape .container_bestcoffe .card h3 {
+    margin: auto;
+    font-size: 39px;
+    margin-top: 40px;
+}
+
+main .cape .container_bestcoffe .card p {
+    margin: auto;
+    width: 230px;
+    margin-top: 40px;
+    opacity: 1;
+}
+
+
+main .business-values {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1140px;
+}
+
+main .business-values .row {
+    display: flex;
+    margin: auto;
+    width: 1140px;
+}
+
+main .business-values .card_value {
+    text-align: center;
+    height: 260px;
+    width: 346px;
+    margin: auto;
+}
+
+main .business-values .card_value h3 {
+    font-size: 36px;
+    height: 88px;
+    font-weight: normal;
+}
+
+main .business-values .card_value p {
+    font-size: 17px;
+    height: 96px;
+    width: 306px;
+    margin: auto;
+    text-align: center;
+    line-height: normal;
+    /*  */
+}
+
+.separator {
+    height: 63px;
+    width: 743px;
+    margin: auto;
+    border-top: solid 3px #6F1D1B;
+}
+
+main .products {
+    display: flex;
+    flex-direction: column;
+}
+
+main .products .row {
+    display: flex;
+    flex-direction: row;
+}
+
+main .products .row .col {
+    /*  */
+    height: 538px;
+}
+
+main .products .row .col1 {}
+
+main .products .row .col2 {
+    margin: auto;
+}
+
+main .products .row .col3 {
+    right: 0;
+}
+
+
+
+
+main .products .row {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #6F1D1B; */
+}
+
+main .products .row .col img {
+    width: 340px;
+    height: 405px;
+}
+
+main .products .row .col img {
+    width: 340px;
+    height: 405px;
+}
+
+/* main .products .row .col div {
+    width: 340px;
+} */
+
+main .products .row .col div h4 {
+    font-size: 31px;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+    height: 38px;
+}
+
+main .products .row .col a {
+    text-decoration: none;
+}
+
+main .products .row .col div p {
+    color: #6F1D1B;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+}
+
+/*   ====================================================== */
+/*   =================== RESPONSIVIDADE ===================  */
+/*   ====================================================== */
+
+
+/* @media(max-width:1400px){
+    main .cape .container_bestcoffe .card {
+        float: right;
+        margin-top: 105px;
+        right: 0;
+        width: 301px;
+        height: 482px;
+        background-color: rgb(255, 255, 255, 0.5);
+    }
+} */
+
+
+@media(max-width:1140px) {
+    .separator{
+        width: 75%;
+    }
+
+    main .cape .container_bestcoffe {
+        width: 100%;
+        /* background-color: rgb(50, 61, 213); */
+        padding-top: 0px;
+
+    }
+
+
+
+    main .cape .container_bestcoffe .card {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        /* background-color: rgb(159, 213, 50); */
+
+        margin: auto;
+    }
+
+
+    main section {
+        width: 100%;
+        /* background-color: orange; */
+    }
+
+
+    main .business-values {
+        /* background-color: orange; */
+        width: 100%;
+
+    }
+
+    main .business-values .row {
+        /* background-color: orange; */
+        width: 100%;
+
+    }
+
+
+    main .business-values .row .card_value {
+        /* background-color: orange; */
+        /* background-color: blue; */
+        width: 100%;
+    }
+
+    main .business-values .row .card_value p {
+        /* background-color: orange; */
+        /* background-color: red; */
+        width: 100%;
+    }
+
+
+    /* ----------------- */
+
+
+    main .products .row {
+        width: 100%;
+        /* background: orange; */
+    }
+
+    main .products .row .col {
+        width: 100%;
+        /* background: orange; */
+        margin: 0 20px;
+
+    }
+
+    main .products .row .col img {
+        width: 100%;
+        height: auto;
+        /* transition: 0.5s; */
+        /* background: orange; */
+    }
+
+    main .products .row .col div h4 {
+        height: 72px;
+        /* background-color: pink; */
+        /* margin-bottom: 40px; */
+        /* background: orange; */
+    }
+
+
+
+}
+
+
+
+
+@media(max-width:800px) {
+    main section {
+        width: 100%;
+        /* background-color: orange; */
+        transition: 0.5s;
+
+    }
+
+
+    main .business-values {
+        /* background-color: orange; */
+        width: 100%;
+        transition: 0.5s;
+
+
+    }
+
+    main .business-values .row {
+        /* background-color: orange; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+
+    main .business-values .row .card_value {
+        /* background-color: orange; */
+        /* background-color: blue; */
+        margin: 2px 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        /* height: 300px; */
+        height: 200px;
+        transition: 0.5s;
+
+        height: fit-content;
+
+    }
+
+
+    main .business-values .row .card_value p {
+        /* background-color: orange; */
+        /* background-color: red; */
+        /* margin: 2px 0; */
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        transition: 0.5s;
+
+
+    }
+
+
+    main .business-values .card_value h3 {
+        font-size: 36px;
+        /* background-color: blueviolet; */
+        height: 44px;
+        transition: 0.5s;
+
+        font-weight: normal;
+    }
+
+    /* ------------- */
+
+    main .cape .container_bestcoffe .card {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        /* background-color: rgb(159, 213, 50); */
+
+        margin: auto;
+    }
+
+
+    main .cape .container_bestcoffe .card h3 {
+        /* background-color: crimson; */
+        font-size: 31px;
+        margin-top: 15px;
+
+    }
+
+
+    main .cape .container_bestcoffe .card p {
+        font-size: 16px;
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    /* ----------------- */
+
+
+    main .products .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main .products .row .col {
+        width: 90%;
+        /* background: orange; */
+        margin: 0 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid var(--lightbrown);
+        /* background: orange; */
+        text-align: center;
+    }
+
+    main .products .row .col img {
+        /* width: 100%;
+        height: auto;
+        transition: 0.5s;
+        background: orange; */
+        width: 340px;
+        height: 405px;
+    }
+
+    main .products .row .col div h4 {
+        height: 72px;
+        /* background-color: pink; */
+        /* margin-bottom: 40px; */
+        /* background: orange; */
+    }
+
+
+
+}
